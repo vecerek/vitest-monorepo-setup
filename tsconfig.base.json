@@ -36,9 +36,9 @@
     "removeComments": false,
     "plugins": [{ "name": "@effect/language-service" }],
     "paths": {
-      "schema": ["./packages/schema/src/index.js"],
-      "schema/*": ["./packages/schema/src/*.js"],
-      "schema/test/*": ["./packages/schema/test/*.js"]
+      "@org/repo-schema": ["./packages/schema/src/index.js"],
+      "@org/repo-schema/*": ["./packages/schema/src/*.js"],
+      "@org/repo-schema/test/*": ["./packages/schema/test/*.js"]
     }
   }
 }
