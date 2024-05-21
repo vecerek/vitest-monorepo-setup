@@ -1,0 +1,27 @@
+{
+  "name": "@org/repo-schema",
+  "version": "0.0.1",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/vecerek/vitest-monorepo-setup.git",
+    "directory": "packages/schema"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "test": "vitest",
+    "coverage": "vitest --coverage"
+  },
+  "peerDependencies": {
+    "effect": "^3.2.1"
+  },
+  "dependencies": {
+    "@effect/schema": "^0.67.2",
+    "fast-check": "^3.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "effect": "^3.2.1"
+  }
+}
